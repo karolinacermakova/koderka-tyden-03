@@ -21,3 +21,28 @@
 
 /* ---------------------------------------------------- */
 /* ZDE NAPIŠ VLASTNÍ CSS */
+
+
+.kontejner {
+    display: flex;
+}
+
+.prvni{
+    order: 3;
+    flex-basis: 25%;
+}
+
+.druhy{
+    order: 1;
+    flex-basis: 25%;
+}
+
+.treti{
+    order: 4;
+    flex-basis: 25%;
+}
+
+.ctvrty{
+    order: 2;
+    flex-basis: 25%;
+}

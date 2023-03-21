@@ -17,4 +17,23 @@ body {
 
 /* ---------------------------------------------------- */
 
+.kontejner {
+	display: flex;
+}
 
+.levy {
+	flex-basis: 25%;
+	order: 1;
+	flex-shrink: 0;
+}
+
+.pravy {
+	flex-basis: 20%;
+	order: 3;
+	flex-shrink: 0;
+}
+
+.hlavni {
+	order: 2;
+	flex-grow: 1;
+}
